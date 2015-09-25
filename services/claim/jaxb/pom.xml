@@ -5,22 +5,22 @@
     <parent>
         <artifactId>org.collectionspace.services.claim</artifactId>
         <groupId>org.collectionspace.services</groupId>
-        <version>4.1.1</version>
+        <version>4.2-SNAPSHOT</version>
     </parent>
-    
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.collectionspace.services</groupId>
     <artifactId>org.collectionspace.services.claim.jaxb</artifactId>
     <name>services.claim.jaxb</name>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.collectionspace.services</groupId>
             <artifactId>org.collectionspace.services.jaxb</artifactId>
             <version>${project.version}</version>
-        </dependency>        
+        </dependency>
     </dependencies>
-    
+
     <build>
         <finalName>collectionspace-services-claim-jaxb</finalName>
         <defaultGoal>install</defaultGoal>
@@ -32,4 +32,3 @@
         </plugins>
     </build>
 </project>
-
